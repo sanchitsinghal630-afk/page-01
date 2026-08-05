@@ -1,0 +1,54 @@
+#body{
+    background-color: rgb(72, 72, 72);
+    margin: auto;
+    margin-top: 100px;
+    width: 425px;
+    height: 625px;
+    border: 10px solid rgb(178, 178, 178);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 100px black;
+}
+#entry{
+    text-align: right;
+    background-color: rgb(178, 178, 178);
+    width: 400px;
+    height: 50px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+#old{
+    color: white;
+    text-align: right;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(83, 82, 82);
+
+}
+button{
+    cursor: pointer;
+    font-size: 40px;
+    margin: 10px;    
+    border-radius: 100px;
+    width: 75px;
+    height: 75px;
+    box-shadow: 3px 3px 5px black , -3px -3px 5px rgb(174, 174, 174);
+    color: white;
+}
+.operator{
+    color: greenyellow;
+}
+#equal{
+    background-color: orange;
+}
+button:active{
+    transform: scale(0.95);
+}
